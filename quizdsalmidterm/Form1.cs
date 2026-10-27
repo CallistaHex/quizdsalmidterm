@@ -8,7 +8,9 @@ namespace quizdsalmidterm
     {
         // Change Data Source if your SQL Server instance is different (e.g. localhost or .\SQLEXPRESS)
         private const string ConnectionString =
+
     @"Data Source=.\SQLEXPRESS;Initial Catalog=MidtermDb;Integrated Security=True";
+
         // Monthly HDMF contribution from the instructions
         private const decimal HdmfContribution = 100.00m;
 
